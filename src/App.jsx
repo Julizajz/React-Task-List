@@ -5,6 +5,10 @@ export default function App() {
 
   const [newItem, setNewItem] = useState('')
 
+  function  handleSubmit(e) {
+    e.preventDefault()
+  }
+
 
 
   return <><form className='new-item-form'>
